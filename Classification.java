@@ -31,7 +31,7 @@ class Classification {
             String s=scanner.nextLine();
             finalProbability=finalProbability*classification.findEntropyForColumn(i,s);
         }
-        System.out.println(finalProbability);
+        System.out.println("Probability of targeted output is:"+finalProbability);
     }
 
     public void readAttributeLength() {
